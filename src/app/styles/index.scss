@@ -1,0 +1,16 @@
+// #b8baff // purple
+
+@use 'reset';
+
+[class*='_container'] {
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
